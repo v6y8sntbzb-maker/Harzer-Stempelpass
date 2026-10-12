@@ -1,10 +1,15 @@
-Harzer Stempelpass – Web-App-Paket
+Harzer Stempelpass – Komoot-Routenfunktion
 
-Enthält index.html, manifest.json und diese Anleitung.
+Enthalten:
+- index.html: aktualisierte App
+- manifest.json: Home-Bildschirm-/Web-App-Metadaten
 
-Die Sonderstempel-Liste wurde auf Grundlage der offiziellen Übersicht der Harzer Wandernadel ergänzt (Abruf: 12.10.2026). Die offizielle Seite nennt mehr als 40 Sonderstempel; Standorte/Verfügbarkeit können sich ändern.
-Offizielle Quelle: https://www.harzer-wandernadel.de/stempelstellen/sonderstempel/
+Komoot:
+1. In der Liste „Stempel“ die gewünschten Stempel mit dem kleinen Routen-Symbol (⌁) auswählen.
+2. „Route mit Komoot planen“ antippen. Es werden mindestens zwei ausgewählte Stempel benötigt.
+3. Die App erstellt eine GPX-Datei mit den ausgewählten Stempelstellen als Wegpunkten und öffnet den Komoot-Routenplaner.
+4. Die Punkte dienen als Zwischenziele/Orientierung. Bitte die tatsächliche Wanderroute in Komoot anhand der begehbaren Wege selbst planen und prüfen. Die App erzeugt keinen geprüften Wandertrack.
 
-Start: index.html muss zusammen mit manifest.json auf einem HTTPS-Webhosting liegen, damit die App auf dem iPhone über Safari zum Home-Bildschirm hinzugefügt werden kann. Ein lokaler Dateivorschau-Modus kann JavaScript blockieren.
+GPS-Koordinaten werden aus der vorhandenen GPX-Quelle geladen oder über die Kartenfunktion importiert. Ohne Koordinaten können keine GPX-Wegpunkte erstellt werden.
 
-Hinweis: Der Sammelfortschritt wird lokal im Browser gespeichert. Vorhandene Einträge bleiben erhalten; neu hinzugefügte offizielle Einträge werden beim nächsten Öffnen ergänzt.
+Für Installation als iPhone-Web-App muss die App auf einem HTTPS-Webserver liegen. Die Dateien können z.B. als statische Website veröffentlicht werden.

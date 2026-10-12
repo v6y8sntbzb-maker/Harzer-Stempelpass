@@ -1,9 +1,7 @@
-Harzer Stempelpass – Web-App-Paket
+Harzer Stempelpass – Web-App-Paket (Sonderstempel erweitert)
 
-WICHTIG: Nicht die HTML-Datei in der iPhone-Dateivorschau öffnen. Dort wird JavaScript häufig nicht ausgeführt.
+Die App fügt beim ersten Start 18 Einträge aus der offiziellen Sonderstempel-Übersicht hinzu. Die Liste ist eine Auswahl, keine Garantie auf Vollständigkeit: Sonderstempel können wechseln, zeitlich begrenzt oder nur gegen Eintritt erreichbar sein. Vor der Wanderung bitte die offizielle Übersicht prüfen: https://www.harzer-wandernadel.de/stempelstellen/sonderstempel/
 
-Für den Betrieb als iPhone-Web-App müssen index.html und manifest.json auf einer HTTPS-Webadresse liegen. Danach die Adresse in Safari öffnen und Teilen > Zum Home-Bildschirm wählen.
+WICHTIG: Nicht die HTML-Datei in der iPhone-Dateivorschau öffnen. Für die Nutzung als iPhone-Web-App müssen index.html und manifest.json auf einer HTTPS-Webadresse liegen. Danach die Adresse in Safari öffnen und Teilen > Zum Home-Bildschirm wählen.
 
-Dieses Paket ist für das Veröffentlichen auf einem statischen HTTPS-Webhost vorbereitet. Die Startdatei heißt index.html, damit sie beim Aufrufen der Website automatisch geladen wird.
-
-Hinweis: Die Kartenbibliothek und Kartendaten werden aus dem Internet geladen. GPS-Daten für die Stempelstellen müssen verfügbar/importiert sein, damit alle Marker erscheinen.
+Die App lädt Kartenbibliothek und Kartendaten aus dem Internet. GPS-Daten müssen verfügbar/importiert sein, damit alle regulären Marker erscheinen.
